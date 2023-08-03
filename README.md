@@ -1,7 +1,7 @@
 # Lab: Class 14
 
 ## Auth with Bcrypt
-
+`./gradlew bootRun`
 ### Resources
 [jBCrypt](https://www.mindrot.org/projects/jBCrypt/)
 
