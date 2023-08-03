@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+<body>
+<h1>Most Secret Login / Sign Up</h1>
+<h2>Login:</h2>
+<div>
+    <form action="/login" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Username" required autofocus><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password" required><br>
+        <input type="submit" value="Login">
+    </form>
+</div>
+
+<h2>Sign Up:</h2>
+<div>
+    <form action="/signup" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Username" required autofocus><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password" required><br>
+        <input type="submit" value="Sign Up">
+    </form>
+</div>
+</body>
+</html>
